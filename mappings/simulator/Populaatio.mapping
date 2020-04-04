@@ -19,8 +19,9 @@ CLASS i simulator/Populaatio
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 satunnainen
 	METHOD a haeSuurennettuVahvuus ()D
+	METHOD a haeSuurennettuÄlykkyysJaVahvuus ()I
 	METHOD a haePopulaatiot ()[Li;
-	METHOD a onkoEnemmänKuinNeljäViidesosaa (D)Z
+	METHOD a pitäisiköRakenneKääntää (D)Z
 		ARG 0 x
 	METHOD a pakkaaSijainti (II)J
 		ARG 0 x
