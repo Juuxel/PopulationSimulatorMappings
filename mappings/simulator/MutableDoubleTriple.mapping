@@ -1,0 +1,16 @@
+CLASS f simulator/MutableDoubleTriple
+	METHOD a clone ()Lf;
+	METHOD a setX (D)V
+		ARG 1 x
+	METHOD a add (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a mixWith (IILf;)V
+		ARG 1 selfWeight
+		ARG 2 otherWeight
+		ARG 3 other
+	METHOD b setY (D)V
+		ARG 1 y
+	METHOD c setZ (D)V
+		ARG 1 z
