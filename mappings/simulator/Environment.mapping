@@ -16,5 +16,5 @@ CLASS a simulator/Environment
 		ARG 4 grasslands
 	METHOD a getClimate ()Lc;
 	METHOD a isGrassy ()Z
-	METHOD a applyEnvironmentEffects (Lf;)V
+	METHOD a applyModifiersToPopulation (Lf;)V
 		ARG 1 stats

@@ -3,7 +3,7 @@ CLASS i simulator/Population
 	FIELD a position J
 	FIELD a environment La;
 	FIELD a abstractLanguageInfo Lf;
-	FIELD a world Lj;
+	FIELD a level Lj;
 	FIELD a POPULATIONS Ljava/util/List;
 		COMMENT List<Population>
 	FIELD a paired Z
@@ -23,10 +23,18 @@ CLASS i simulator/Population
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 random
 	METHOD a getSizedStrength ()D
+	METHOD a getSizedIntelligenceAndStrength ()I
 	METHOD a getPopulations ()[Li;
+	METHOD a shouldInvertBuild (D)Z
+		COMMENT Checks if the build components of the {@link #stats} should be inverted
+		COMMENT based on the different of two build values.
+		ARG 0 delta
 	METHOD a packPosition (II)J
 		ARG 0 x
 		ARG 1 y
+	METHOD a move (II)V
+		ARG 1 x
+		ARG 2 y
 	METHOD a createPair (Li;Li;)V
 		ARG 0 first
 		ARG 1 second
