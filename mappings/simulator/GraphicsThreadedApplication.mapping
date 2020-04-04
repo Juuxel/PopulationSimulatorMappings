@@ -1,4 +1,4 @@
-CLASS simulator/a simulator/AbstractApplication
+CLASS simulator/a simulator/GraphicsThreadedApplication
 	COMMENT Why does this class exist?
 	FIELD a dimension Lsimulator/b;
 	METHOD a startLoopThread (Ljava/lang/Runnable;)V
