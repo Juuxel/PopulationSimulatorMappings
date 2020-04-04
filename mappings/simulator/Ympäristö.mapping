@@ -12,7 +12,7 @@ CLASS a simulator/Ympäristö
 	METHOD <init> (Ljava/lang/String;Lc;Le;Z)V
 		ARG 1 nimi
 		ARG 2 ilmasto
-		ARG 3 ominausuusmuunnin
+		ARG 3 ominaisuusmuunnin
 		ARG 4 ruohoinen
 	METHOD a haeIlmasto ()Lc;
 	METHOD a onkoRuohoinen ()Z
