@@ -15,7 +15,7 @@ Nämä ovat avoimet, CC0-lisensoidut kartoitustiedostot Valoeghesen Populaatiosi
 - `OpenSimplexNoise`-luokan nimet kuuluu pitää samoina kuin englanninkielisessä `master`-haarassa,
   sillä ne on otettu suoraan OpenSimplex-kohinan lähdekoodista.
 
-# Huomioita
+## Huomioita
 
 - Fabric-projektin Enigma ei tue ääkkösten käyttöä symboleissa,
   joten kartoitukseen täytyy käyttää omaa Enigma-versiotani (`finnish`-haara).
