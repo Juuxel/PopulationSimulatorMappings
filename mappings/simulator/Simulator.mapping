@@ -1,4 +1,4 @@
-CLASS simulator/Simulator simulator/Simulator
+CLASS simulator/Simulator
 	FIELD a MAAILMAN_HALKAISIJA I
 	FIELD a SATUNNAINEN Ljava/util/Random;
 	FIELD a pikselikirjoittaja Ljavafx/scene/image/PixelWriter;
