@@ -1,4 +1,4 @@
-CLASS simulator/a simulator/AbstraktiSovellus
+CLASS simulator/a simulator/GrafiikkasäikeinenSovellus
 	FIELD a koko Lsimulator/b;
 	METHOD a käynnistäSilmukkasäie (Ljava/lang/Runnable;)V
 		ARG 0 tehtävä
