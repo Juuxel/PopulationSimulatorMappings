@@ -1,8 +1,0 @@
-CLASS c simulator/Climate
-	FIELD a temperature D
-	FIELD b humidity D
-	METHOD <init> (DD)V
-		ARG 1 temperature
-		ARG 3 humidity
-	METHOD a getTemperature ()D
-	METHOD b getHumidity ()D
