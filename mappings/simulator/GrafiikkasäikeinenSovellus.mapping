@@ -2,9 +2,9 @@ CLASS simulator/a simulator/GrafiikkasäikeinenSovellus
 	FIELD a koko Lsimulator/b;
 	METHOD a käynnistäSilmukkasäie (Ljava/lang/Runnable;)V
 		ARG 0 tehtävä
-	METHOD a loop (Ljava/lang/Runnable;J)V
-		ARG 0 task
-		ARG 1 pauseTime
+	METHOD a toista (Ljava/lang/Runnable;J)V
+		ARG 0 tehtävä
+		ARG 1 tauonKesto
 	METHOD a alusta (Ljavafx/scene/canvas/GraphicsContext;II)V
 		ARG 1 konteksti
 		ARG 2 leveys
